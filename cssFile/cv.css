@@ -1,6 +1,37 @@
-*{
 
+
+
+*{
     margin: 0;
     padding: 0;
-    background-color: azure;
+}
+body{
+    background-color: beige;
+}
+.container{
+    max-width: 1000px;
+    background-color: goldenrod;
+    margin: 0 auto;
+    padding: 100px;
+   
+}
+.profile_image{
+    width: 100px; 
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+
+}
+.header-contact{
+    float: right;
+
+}
+h1,h2,h3,h4,h5,h6{
+    color:rebeccapurple ;
+
 }
